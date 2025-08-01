@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunthrive Solar Company</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, footer { background: #f8b400; color: white; text-align: center; padding: 1em; }
+    nav { background: #444; padding: 0.5em; text-align: center; }
+    nav a { color: white; margin: 0 1em; text-decoration: none; }
+    section { padding: 2em; }
+    .form-group { margin-bottom: 1em; }
+    .form-group label { display: block; margin-bottom: 0.5em; }
+    .form-group input, .form-group textarea { width: 100%; padding: 0.5em; }
+    .btn { background: #f8b400; color: white; border: none; padding: 0.75em 1.5em; cursor: pointer; }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sunthrive Solar Company</h1>
+    <p>Powering a Brighter Tomorrow</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#survey">Client Survey</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p><strong>Zain ul Abideen</strong> - CEO & Founder</p>
+    <p><strong>Maisam Raza</strong> - Managing Director</p>
+    <p>Sunthrive Solar provides complete solar system installation services for both residential and commercial clients in Lahore and beyond.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Residential Solar Installations</li>
+      <li>Commercial Solar Solutions</li>
+      <li>System Design & Consultation</li>
+      <li>Maintenance & Support</li>
+    </ul>
+  </section>
+
+  <section id="survey">
+    <h2>Client Survey Form</h2>
+    <form action="mailto:sunthrivesolar@gmail.com" method="POST" enctype="text/plain">
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="Name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="Phone">
+      </div>
+      <div class="form-group">
+        <label for="address">Property Address:</label>
+        <textarea id="address" name="Address"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="message">Any Specific Requirements:</label>
+        <textarea id="message" name="Message"></textarea>
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: sunthrivesolar@gmail.com</p>
+    <p>Phone: 0328-1278825</p>
+    <p>Location: West Wood Colony, Lahore</p>
+  </section>
+
+  <a class="whatsapp-button" href="https://wa.me/923281278825" target="_blank">💬</a>
+
+  <footer>
+    <p>&copy; 2025 Sunthrive Solar. All rights reserved.</p>
+  </footer>
+</body>
+</html>
